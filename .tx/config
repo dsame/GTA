@@ -1,0 +1,8 @@
+[main]
+host = https://www.transifex.com
+
+[unify_beta.windows]
+file_filter = EG.Sherpany.Boardroom/EG.Sherpany.Boardroom.Libs/Strings/<lang>/Resources.resx
+source_file = EG.Sherpany.Boardroom/EG.Sherpany.Boardroom.Libs/Strings/en/Resources.resx
+source_lang = en
+type = RESX
