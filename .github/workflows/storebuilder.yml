@@ -1,5 +1,5 @@
   
-name:  Store Build
+name:  Store Build 1
 
 # Trigger on every new tag creation
 on:
