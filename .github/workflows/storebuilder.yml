@@ -4,7 +4,6 @@ name:  Store Build 1
 # Trigger on every new tag creation
 on:
   push:
-    tags: '*'
     branches: 
      - ReleaseBuild
      - develop
