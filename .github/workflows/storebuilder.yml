@@ -8,6 +8,8 @@ on:
      - ReleaseBuild
      - develop
      - master
+   tags:
+     - "**"
 
 jobs:
 
