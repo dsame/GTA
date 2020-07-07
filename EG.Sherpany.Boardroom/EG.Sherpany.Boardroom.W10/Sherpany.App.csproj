@@ -32,6 +32,7 @@
     <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
     <RuntimeIdentifiers>win10-arm;win10-arm-aot;win10-x64;win10-x64-aot;win10-arm64-aot</RuntimeIdentifiers>
     <AppxPackageSigningTimestampDigestAlgorithm>SHA256</AppxPackageSigningTimestampDigestAlgorithm>
+    <Use64BitCompiler>true</Use64BitCompiler>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM64'">
     <DebugSymbols>true</DebugSymbols>

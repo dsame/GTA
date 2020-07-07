@@ -52,7 +52,7 @@ jobs:
         $manifest.save(".\$env:UWP_Project_Directory\Package.appxmanifest")
         
     - name: Build the sideload solution
-      run: msbuild $env:Solution_Path /p:Platform=ARM64 /p:AppxBundle=$env:AppxBundle /p:AppxBundlePlatforms="ARM64|x64" /p:AppxPackageDir=C:\DeployOutput /p:PackageCertificateKeyFile=$env:SigningCertificate /restore
+      run: msbuild -verbosity:detailed $env:Solution_Path /p:Platform=ARM64 /p:AppxBundle=$env:AppxBundle /p:AppxBundlePlatforms="ARM64|x64" /p:AppxPackageDir=C:\DeployOutput /p:PackageCertificateKeyFile=$env:SigningCertificate /restore
       env:
         AppxBundle: Always
         BuildMode: StoreUpload
